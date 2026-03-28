@@ -7,7 +7,7 @@ jobs:
        - name: checkout code
          uses: actions/checkout@v6
          with:
-           ref: my-branch
+           ref: main
        - name: installing python
          uses: actions/setup-python@v6
          with:
